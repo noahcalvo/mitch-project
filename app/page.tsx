@@ -36,7 +36,7 @@ export default function Home() {
                 </h2>
                 <p className="text-lg text-gray-700 mb-6">
                   Mitch draws upon his experience as an alternative dispute resolution professor, a leader of ADR
-                  organizations, an ADR practitioner at one of the world's largest law firms and General Counsel of a
+                  organizations, an ADR practitioner at one of the world&apos;s largest law firms and General Counsel of a
                   Fortune 10 company to help parties resolve disputes of all shapes, sizes and complexity.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
@@ -125,7 +125,7 @@ export default function Home() {
                       application of the law to their case may be ambiguous or difficult to predict. In such a
                       situation, early neutral evaluation can help provide clarity and a more meaningful basis for
                       negotiation and settlement than the mere predictions of counsel. Early neutral evaluation is a
-                      process in which a neutral party examines the evidence, listens to the disputants' positions, and
+                      process in which a neutral party examines the evidence, listens to the disputants&apos; positions, and
                       then gives the parties his or her evaluation of the case.
                     </p>
                     <p className="mb-4">
@@ -170,7 +170,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-[#0a3b6c] mb-12">Experience</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="relative h-[400px] md:h-[500px] min-w-[350px] lg:row-span-2">
+              <div className="relative h-[400px] md:h-[500px] min-w-[350px]">
                 <Image
                   src="https://zamoffadr.com/wp-content/uploads/2018/11/ZAM_Experience_photo_sm.jpg"
                   alt="Mitch Zamoff"
@@ -179,16 +179,7 @@ export default function Home() {
                   priority
                 />
               </div>
-              <div className="max-w-4xl mx-auto">
-                <div className="bg-white rounded-lg shadow-lg p-8">
-                  <p className="text-gray-700 mb-8">
-                    Mitch draws upon his extensive experience as an alternative dispute resolution professor, a leader of
-                    ADR organizations, an ADR practitioner at one of the world's largest law firms, and General Counsel of
-                    a Fortune 10 company to help parties resolve disputes of all shapes, sizes and complexity.
-                  </p>
-                </div>
-              </div>
-              <Accordion type="single" collapsible className="w-full my-6 md:col-span-2 lg:col-span-1">
+              <Accordion type="single" collapsible className="w-full my-6">
                 <AccordionItem value="academic">
                   <AccordionTrigger className="text-xl font-semibold text-[#0a3b6c]">
                     Academic Experience
@@ -237,7 +228,7 @@ export default function Home() {
                         </h4>
                         <ul className="list-disc pl-5 space-y-2 mt-2">
                           <li>Responsible for ADR and litigation dockets of Fortune 10 healthcare company</li>
-                          <li>One of "10 GCs to Watch" Identified by Corporate Board Member</li>
+                          <li>One of &quot;10 GCs to Watch&quot; Identified by Corporate Board Member</li>
                         </ul>
                       </div>
 
